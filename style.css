@@ -1,0 +1,103 @@
+body {
+    margin: 0; /* Resetting default body margin */
+    background-color: #3f3f3f;
+    font-family: 'Arial', sans-serif; /* Set a preferred font family */
+}
+
+.left-header {
+    width: 18%; /* Set the width to one-third of the screen */
+    height: 100vh; /* Set the height to 100% of the viewport height */
+    background-color: #5c5c5c; /* Set the background color (change as needed) */
+    position: fixed; /* Fixed positioning to keep it in place while scrolling */
+    top: 0;
+    left: 0;
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Stack children vertically */
+    justify-content: flex-start; /* Align children to the top */
+    align-items: center; /* Center horizontally */
+}
+
+.img-My-profile {
+    max-width: 80%; /* Ensure the image does not exceed the container width */
+    height: auto; /* Maintain the aspect ratio of the image */
+    border-radius: 50%; /* Make the image round */
+    margin-top: 50px; /* Adjust this value to lower or raise the image */
+}
+
+.big-img-of-ezekiel {
+    max-width: 40%; /* Adjust this value to make the image thinner */
+    height: auto;
+    margin-top: 2px;
+}
+
+
+
+.left-header h1 {
+    color: #fff; /* Set the text color (change as needed) */
+    padding: 20px; /* Add padding as needed */
+    margin: 0; /* Reset margin for the h1 element */
+}
+
+.nav-links {
+    margin-top: 30px; /* Adjust this value to set space between h1 and links */
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Center horizontally */
+}
+
+.nav-links a {
+    color: #cccccc; /* Set link text color */
+    text-decoration: none; /* Remove underlines from links */
+    display: block; /* Make links block-level for easy styling */
+    padding: 15px; /* Add padding as needed */
+    margin-bottom: 5px; /* Add margin to create space between links */
+    font-size: 20px; /* Adjust this value to change the font size */
+}
+
+.nav-links a:hover {
+    background-color: #333; /* Change background color on hover */
+    color: #fff;
+}
+
+/* Styles for the sections */
+section {
+    padding: 20px;
+    margin: 20px 0 20px 18%; /* Adjust left margin to match the header width */
+    background-color: #3f3f3f; /* Set background color for sections */
+    border-radius: 10px; /* Add rounded corners */
+    color: #ffffff; /* Set text color */
+}
+
+section h2 {
+    color: #777777; /* Set heading color */
+}
+
+section p {
+    font-size: 20px;
+    line-height: 1.5; /* Set line height for better readability */
+    border-bottom: 1px solid #777777; /* Add this line to create a border */
+    padding-bottom: 10px; /* Adjust padding as needed */
+    margin-bottom: 10px; /* Adjust margin as needed */
+}
+
+#about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-image {
+    max-width: 40%; /* Adjust this value to control the image width */
+    flex: 0 0 auto; /* Allow the image to grow without shrinking */
+    margin-right: 20px; /* Adjust as needed */
+}
+
+.big-img-of-ezekiel {
+    width: 100%; /* Ensure the image takes up the full width of the container */
+    max-width: none; /* Remove the max-width restriction */
+    height: auto; /* Maintain the aspect ratio */
+}
+
+.about-content {
+    flex: 1; /* Takes up 1/2 of the available space */
+}
