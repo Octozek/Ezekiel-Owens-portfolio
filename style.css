@@ -3,13 +3,14 @@ body {
     margin: 0;
     background-color: #3f3f3f;
     font-family: 'Arial', sans-serif;
+    border: 2px solid black; /* Adjust the border width and color as needed */
 }
 
 /* Left Header Styles */
 .left-header {
     width: 18%;
     height: 100vh;
-    background-color: #5c5c5c;
+    background: linear-gradient(to bottom, #5c5c5c, rgba(100, 100, 100, 0.05) 50%, #0f0f0f 100%);
     position: fixed;
     top: 0;
     left: 0;
@@ -17,6 +18,7 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    border: 2px solid black; /* Adjust the border width and color as needed */
 }
 
 /* Profile Image Styles */
@@ -25,6 +27,7 @@ body {
     height: auto;
     border-radius: 50%;
     margin-top: 50px;
+    border: 2px solid black; /* Adjust the border width and color as needed */
 }
 
 /* Big Image of Ezekiel Styles */
@@ -32,6 +35,7 @@ body {
     max-width: 40%;
     height: auto;
     margin-top: 2px;
+    border: 2px solid black; /* Adjust the border width and color as needed */
 }
 
 /* Header Title Styles */
@@ -117,11 +121,16 @@ section p {
 .project-link {
     color: #3498db;
     text-decoration: none;
+    border: 2px solid black; /* Adjust the border width and color as needed */
 }
 
 .project-link:hover {
     text-decoration: underline;
+    border: 2px solid rgb(34, 202, 231); /* Adjust the border width and color as needed */
+    
 }
+
+
 
 .demo-page {
     width: 100%;
