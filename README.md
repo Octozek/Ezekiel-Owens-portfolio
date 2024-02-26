@@ -36,6 +36,10 @@ This portfolio website is designed to provide an overview of my background, skil
 
 To view the portfolio locally or make modifications:
 
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/octozek/Ezekiel-Owens-portfolio.git
+
 ## Screenshot
 
 ![alt text](img/Screenshot.png)
