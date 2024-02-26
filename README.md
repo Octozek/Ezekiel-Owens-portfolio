@@ -1,7 +1,3 @@
-
-
-
-
 # Portfolio Website
 
 Welcome to my portfolio repository! This repository contains the source code for my personal portfolio website, showcasing my skills, projects, and experiences in the field of web development and 3D design.
@@ -12,6 +8,7 @@ Welcome to my portfolio repository! This repository contains the source code for
 - [Sections](#sections)
 - [Technologies Used](#technologies-used)
 - [Getting Started](#getting-started)
+- [Screenshot](#screenshot)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -38,6 +35,14 @@ This portfolio website is designed to provide an overview of my background, skil
 ## Getting Started
 
 To view the portfolio locally or make modifications:
+
+## Screenshot
+
+![Portfolio Screenshot](C:\Users\Octozek\Desktop\Bootcamp  files\Second assignment\img\Screenshot.png)
+
+## Contributing
+
+...
 
 ## License
 

@@ -3,7 +3,7 @@ body {
     margin: 0;
     background-color: #3f3f3f;
     font-family: 'Arial', sans-serif;
-    border: 2px solid black; /* Adjust the border width and color as needed */
+    border: 2px solid black;
 }
 
 /* Left Header Styles */
@@ -18,7 +18,18 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    border: 2px solid black; /* Adjust the border width and color as needed */
+    border: 2px solid black;
+}
+
+/* Top Image Styles */
+.top-image {
+    width: 100%;
+    height: auto;
+    max-width: 100vw;
+    margin-bottom: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.8);
 }
 
 /* Profile Image Styles */
@@ -27,7 +38,7 @@ body {
     height: auto;
     border-radius: 50%;
     margin-top: 50px;
-    border: 2px solid black; /* Adjust the border width and color as needed */
+    border: 2px solid black;
 }
 
 /* Big Image of Ezekiel Styles */
@@ -35,7 +46,8 @@ body {
     max-width: 40%;
     height: auto;
     margin-top: 2px;
-    border: 2px solid black; /* Adjust the border width and color as needed */
+    border: 2px solid black;
+    border-radius: 10px;
 }
 
 /* Header Title Styles */
@@ -43,12 +55,12 @@ body {
     color: #fff;
     padding: 20px;
     margin: 0;
-    font-size: 2em; /* Adjust the font size as needed */
+    font-size: 2em;
 }
 
 /* Navigation Links Styles */
 .nav-links {
-    margin-top: 10px; /* Adjust spacing as needed */
+    margin-top: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -58,9 +70,9 @@ body {
     color: #cccccc;
     text-decoration: none;
     display: block;
-    padding: 10px; /* Adjust padding as needed */
+    padding: 10px;
     margin-bottom: 5px;
-    font-size: 1.5em; /* Adjust the font size as needed */
+    font-size: 1.5em;
 }
 
 .nav-links a:hover {
@@ -112,6 +124,49 @@ section p {
     height: auto;
 }
 
+/* Skills Section Styles */
+#skills {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.skills-container {
+    display: flex;
+    width: 100%;
+}
+
+.text-content {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.image-container {
+    position: relative;
+    width: 20%;
+    overflow: visible;
+    margin-right: -10px;
+}
+
+.image-container img {
+    max-width: 75%;
+    height: auto;
+    border-radius: 10px;
+    border: 4px solid black;
+    position: relative;
+    z-index: 2;
+}
+
+.image-container:first-child img {
+    transform: rotate(-5deg);
+}
+
+.image-container:last-child img {
+    transform: rotate(5deg);
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.8);
+    margin-top: -40px;
+}
+
 /* About Content Styles */
 .about-content {
     flex: 1;
@@ -119,18 +174,15 @@ section p {
 
 /* Project Link Styles */
 .project-link {
-    color: #3498db;
+    color: #3f3f3f;
     text-decoration: none;
-    border: 2px solid black; /* Adjust the border width and color as needed */
+    border: 2px solid #3f3f3f;
 }
 
 .project-link:hover {
     text-decoration: underline;
-    border: 2px solid rgb(34, 202, 231); /* Adjust the border width and color as needed */
-    
+    border: 4px solid rgb(34, 202, 231);
 }
-
-
 
 .demo-page {
     width: 100%;
@@ -142,6 +194,7 @@ section p {
     flex-direction: column;
 }
 
+/* Responsive Styles */
 @media (max-width: 768px) {
     .left-header {
         width: 100%;
@@ -155,8 +208,8 @@ section p {
     .about-image {
         max-width: 100%;
         height: auto;
-    flex: auto;
-    margin-right: 0px;
+        flex: auto;
+        margin-right: 0px;
     }
     #about {
         display: flex;
