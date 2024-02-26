@@ -38,11 +38,8 @@ To view the portfolio locally or make modifications:
 
 ## Screenshot
 
-![Portfolio Screenshot](C:\Users\Octozek\Desktop\Bootcamp  files\Second assignment\img\Screenshot.png)
+![alt text]!(<img/Screenshot.png>)
 
-## Contributing
-
-...
 
 ## License
 
