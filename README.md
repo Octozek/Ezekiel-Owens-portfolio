@@ -38,8 +38,7 @@ To view the portfolio locally or make modifications:
 
 ## Screenshot
 
-![alt text]!(<img/Screenshot.png>)
-
+![alt text](img/Screenshot.png)
 
 ## License
 
